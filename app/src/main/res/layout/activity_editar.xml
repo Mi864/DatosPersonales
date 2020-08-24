@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Editar">
+
+    <TextView
+        android:id="@+id/Confirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/confirmar_datos"
+        android:textColor="#191919"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Cnombre"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginTop="70dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Confirmar" />
+
+    <TextView
+        android:id="@+id/Cfecha"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginTop="26dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cnombre" />
+
+    <TextView
+        android:id="@+id/Ctelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginTop="26dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cfecha" />
+
+    <TextView
+        android:id="@+id/Cemail"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginTop="26dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ctelefono" />
+
+    <TextView
+        android:id="@+id/Cdescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginTop="26dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cemail" />
+
+    <Button
+        android:id="@+id/Editar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="100dp"
+        android:text="@string/editar_datos"
+        android:theme="@style/TemaBoton"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cdescripcion" />
+</androidx.constraintlayout.widget.ConstraintLayout>
